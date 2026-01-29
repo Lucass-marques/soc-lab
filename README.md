@@ -7,7 +7,7 @@ Este repositório não é apenas teórico. Ele documenta a construção e a oper
 
 ## Objetivo do Repositório
 
-#Demonstrar conhecimento prático em:
+# Demonstrar conhecimento prático em:
 
 - Arquitetura SIEM/SOAR realista
 
