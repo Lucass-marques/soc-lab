@@ -1,4 +1,4 @@
-### SOC Lab Open-Source
+# SOC Lab Open-Source
 
 
 Laboratório prático de Segurança Defensiva simulando um SOC real, com arquitetura modular, integração entre ferramentas open source e foco total em detecção, resposta e investigação de incidentes.
@@ -7,7 +7,7 @@ Este repositório não é apenas teórico. Ele documenta a construção e a oper
 
 ## Objetivo do Repositório
 
-# Demonstrar conhecimento prático em:
+### Demonstrar conhecimento prático em:
 
 - Arquitetura SIEM/SOAR realista
 
