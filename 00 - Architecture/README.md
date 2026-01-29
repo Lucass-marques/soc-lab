@@ -8,8 +8,6 @@ O foco do projeto é demonstrar **conhecimento prático**, fluxo operacional e i
 
 ## Arquitetura em Alto Nível
 
-![Diagrama da Arquitetura SOC](./soc-architecture.png)
-
 O laboratório é composto por **quatro máquinas virtuais independentes**, cada uma com uma responsabilidade clara dentro do SOC.  
 Essa abordagem reflete ambientes corporativos reais, onde ferramentas críticas não compartilham o mesmo host.
 
