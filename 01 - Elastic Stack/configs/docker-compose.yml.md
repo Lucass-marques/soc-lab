@@ -50,3 +50,9 @@ kibana:
     # telemetry data to kibana developers
     - TELEMETRY_ENABLED=false
 ```
+
+**Observação:** As variáveis **ELASTIC_PASSWORD** e **KIBANA_PASSWORD** foram definidas no arquivo .env:
+```
+ELASTIC_PASSWORD=senha_do_elastic
+KIBANA_PASSWORD=senha_do_kibana
+```
