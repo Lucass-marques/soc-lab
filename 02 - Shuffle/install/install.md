@@ -4,7 +4,7 @@ Este documento descreve o processo de instalação do **Shuffle SOAR** utilizand
 
 ---
 
-## 1. Clonando o Repositório
+## 1️⃣ Clonando o Repositório
 
 Navegue até o diretório onde o Shuffle será instalado (recomendado: `/opt`) e clone o repositório oficial:
 
@@ -19,7 +19,7 @@ cd Shuffle
 ```
 ---
 
-## 2. Ajustando Permissões dos Diretórios
+## 2️⃣ Ajustando Permissões dos Diretórios
 
 O Shuffle utiliza um banco de dados baseado em OpenSearch (Elasticsearch) e requer permissões adequadas para escrita em disco.
 
@@ -34,7 +34,7 @@ Essa etapa é essencial para evitar erros de permissão durante a inicializaçã
 
 ---
 
-## 3. Iniciando o Docker Compose
+## 3️⃣ Iniciando o Docker Compose
 
 Com as permissões ajustadas, inicie os serviços definidos no arquivo docker-compose.yml:
 ```
@@ -44,7 +44,7 @@ O parâmetro -d executa os containers em modo daemon, permitindo que o Shuffle r
 
 ---
 
-## 4. Verificando o Status dos Containers
+## 4️⃣ Verificando o Status dos Containers
 
 Após a inicialização, verifique se todos os serviços estão rodando corretamente:
 ```
@@ -54,7 +54,7 @@ docker compose ps
 
 Esse comando lista os containers ativos e seus respectivos status, permitindo confirmar que o Shuffle e seus componentes foram iniciados com sucesso.
 
-## 5. Acessando o Shuffle
+## 5️⃣  Acessando o Shuffle
 
 Com os containers em execução, acesse a interface web do Shuffle pelo navegador.
 
@@ -67,7 +67,7 @@ Caso a porta tenha sido alterada, utilize a porta configurada no seu ambiente.
 
 ---
 
-## 6. Configuração Adicional
+## 6️⃣ Configuração Adicional
 
 Dependendo do ambiente e dos objetivos do laboratório, podem ser necessários ajustes adicionais, como:
 
