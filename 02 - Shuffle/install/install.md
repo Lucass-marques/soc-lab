@@ -71,15 +71,15 @@ Caso a porta tenha sido alterada, utilize a porta configurada no seu ambiente.
 
 Dependendo do ambiente e dos objetivos do laboratório, podem ser necessários ajustes adicionais, como:
 
-Alteração de portas
+- Alteração de portas
 
-Configuração de variáveis de ambiente
+- Configuração de variáveis de ambiente
 
-Ajustes de volumes persistentes
+- Ajustes de volumes persistentes
 
-Integração com Elastic Stack
+- Integração com Elastic Stack
 
-Configuração de autenticação e segurança
+- Configuração de autenticação e segurança
 
 ### Observações Importantes
 
