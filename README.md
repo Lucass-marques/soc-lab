@@ -17,6 +17,6 @@ Este repositório não é apenas teórico. Ele documenta a construção e a oper
 
 - Investigação e DFIR
 
-- Uso de IA local aplicada à segurança
+- Uso de IA aplicada à segurança
 
 > Projeto focado em prática real, automação e resposta a incidentes.
