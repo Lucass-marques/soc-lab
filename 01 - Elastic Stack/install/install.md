@@ -29,6 +29,7 @@ O Elastic Stack foi instalado no seguinte diretório:
 mkdir -p /opt/elk-stack
 cd /opt/elk-stack
 ```
+---
 
 ### 2️⃣ Criação do arquivo docker-compose.yml
 
@@ -45,6 +46,7 @@ Foi criado um arquivo chamado docker-compose.yml contendo os serviços:
 **Observação:**
 O uso do container setup garante que as senhas do Elasticsearch e do Kibana sejam configuradas automaticamente durante o primeiro start.
 
+---
 
 ### 3️⃣ Criação do arquivo de variáveis (.env)
 
@@ -56,6 +58,7 @@ KIBANA_PASSWORD=senha_do_kibana
 
 Essas variáveis são utilizadas tanto pelo Elasticsearch quanto pelo Kibana.
 
+---
 
 ### 4️⃣ Subida dos containers
 
@@ -66,7 +69,7 @@ Com os arquivos criados, os containers foram iniciados com o comando:
 
 Após alguns minutos, os serviços ficam disponíveis nas portas configuradas.
 
-
+---
 
 ### 5️⃣ Ajuste de criptografia do Kibana
 
@@ -106,7 +109,7 @@ Após isso, o container do Kibana deve ser reiniciado:
 
 docker restart <ID_KIBANA>
 
-
+---
 
 ### 6️⃣ Validação do ambiente
 
